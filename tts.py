@@ -47,8 +47,6 @@ def convert_pathname(pathname):
     )
     return lpwstr.value
 
-player = libwinmedia.Player(sleep=0)
-
 def play_audio(file_list):
     for file in file_list:
         if file == 'pause':
